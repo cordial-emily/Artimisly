@@ -10,3 +10,28 @@
  Tags:         responsive-layout, custom-background, custom-header, elegant, modern, professional, sophisticated
  Text Domain:  /artimisly-ultra-bootstrap-child/
 */
+a, h1, h2, p { font: 300 13px/22px Roboto; }
+a:hover, a:focus { text-decoration: none; }
+.masthead {
+  background: url(img/DowntownKnoxville.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+.mastheadcolor {
+    height: 600px !important;
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 400px;
+}
+nav.navbar.navbar-default.navbar-fixed-top {
+    background: #191f1d;
+    border-bottom: 1px solid #afb2b1;
+}
+header .navbar-form .btn {
+    background: #830216;
+}
+.red {
+    background-color: #830216;
+}

@@ -8,78 +8,70 @@
 get_header(); ?>
 
 
-<!-- theme-slider -->
-<section class="theme-slider">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- masthead -->
 
-  			<!-- Wrapper for slides -->
-  			<div class="carousel-inner" role="listbox">
-          <?php
-            $cn = get_theme_mod('slider_no_of_posts');
-    				$cid = get_theme_mod('slider_category_display');
-    				$category_link = get_category_link($cid);
-    				$ultrabootstrap_cat = get_category($cid);
-    				if ($ultrabootstrap_cat) {
-        	?>
+<section class="welcome masthead">
+  	<div class="container">
+      <div class="row">
 
-        	<?php
-            $args = array(
-              'posts_per_page' => $cn,
-              'paged' => 1,
-              'cat' => $cid
-            );
-            $loop = new WP_Query($args);
+        <div class="col-md-2 col-md-offset-4">
+          <div class="mastheadcolor">
+            <div style="text-align:center;padding-top:130px;"><img src="/wp-content/uploads/2016/11/ArtimislyLogo.png" alt="Artimisly Marketing" height="200px" width="200px"><h1 style="text-align:center;color:#afb2b1;font-size:1.3em;">Marketing By And For The Kick-Ass<br> Women Of Today.</h1><h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2></div>
+          </div>
+        </div>
 
-            $cn = 0;
-            if ($loop->have_posts()) :  while ($loop->have_posts()) : $loop->the_post();$cn++;
-          ?>
+      </div>
+    </div>
+</section>
 
-    			<div class="item <?php echo $cn == 1 ? 'active' : ''; ?>">
-  						  <?php if(has_post_thumbnail()){
-                	$arg =
-                  	array(
-                      'class' => 'img-responsive',
-                      'alt' => ''
-                		);
-                		the_post_thumbnail('',$arg);
-              	  }
-                ?>
-            <div class="slide-caption">
-              <div class="container">
-                <div class="slide-caption-details">
-                <h4><?php the_title();?></h4>
-                <div class="summary"><?php the_excerpt('ultrabootstrap_excerpt_length');?></div>
-                <a href="<?php the_permalink();?>" title="" class="btn btn-danger">View</a>
-                </div>
-              </div>
-            </div>
-      		</div> <!-- /.end of item -->
-
-    			<?php
-      			endwhile;
-      				wp_reset_postdata();
-      			endif;
-    				}
-    			?>
-        </div>  <!-- /.end of carousel inner -->
-
-        <!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-  				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><i class="fa fa-angle-left"></i></span>
-  				<span class="sr-only"><?php _e('Previous' , 'ultrabootstrap' ); ?></span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-  				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"><i class="fa fa-angle-right"></i></span>
-  				<span class="sr-only"><?php _e('Next' , 'ultrabootstrap' ); ?></span>
-				</a>
-
-      </div> <!-- /.end of carousel example -->
-</section> <!-- /.end of section -->
-<!-- theme-slider -->
-
-
-
-
+<section class="welcome red">
+  	<div class="container">
+      <div class="row">
+        <div class="col-sm-7 spacer">
+          			<h4>Welcome to The Boostrap  Theme</h4>
+          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
+          			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1">
+          <div class="spacer message">
+          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          </div>
+        </div>
+      </div>
+    	</div>
+</section>
+<section class="welcome">
+  	<div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-1">
+          <div class="spacer message">
+          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          </div>
+        </div>
+        <div class="col-sm-7 spacer">
+          			<h4>Welcome to The Boostrap  Theme</h4>
+          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
+          			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
+        </div
+      </div>
+    	</div>
+</section>
+<section class="welcome red">
+  	<div class="container">
+      <div class="row">
+        <div class="col-sm-7 spacer">
+          			<h4>Welcome to The Boostrap  Theme</h4>
+          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
+          			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1">
+          <div class="spacer message">
+          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          </div>
+        </div>
+      </div>
+    	</div>
+</section>
 <!-- welcome message -->
 <section class="page-section">
 <div class="detail-content">
@@ -87,7 +79,7 @@ get_header(); ?>
  <?php get_template_part( 'template-parts/content', 'page' ); ?>
  <?php endwhile; // End of the loop. ?>
  <?php comments_template(); ?>
-</div> 
+</div>
 </section>
 <!-- welcome message -->
 
