@@ -16,7 +16,7 @@ get_header(); ?>
 
         <div class="col-md-2 col-md-offset-4">
           <div class="mastheadcolor">
-            <div style="text-align:center;padding-top:130px;"><img src="/wp-content/uploads/2016/11/ArtimislyLogo.png" alt="Artimisly Marketing" height="200px" width="200px"><h1 style="text-align:center;color:#afb2b1;font-size:1.3em;">Marketing By And For The Kick-Ass<br> Women Of Today.</h1><h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2></div>
+            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/uploads/2016/11/ArtimislyLogo.png" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#afb2b1;font-size:1.3em;">Marketing By And For The Kick-Ass<br> Women Of Today.</h1><h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2></div>
           </div>
         </div>
 
@@ -28,13 +28,13 @@ get_header(); ?>
   	<div class="container">
       <div class="row">
         <div class="col-sm-7 spacer">
-          			<h4>Welcome to The Boostrap  Theme</h4>
+          			<h4>CONSULTATION</h4>
           			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
           			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div>
         <div class="col-sm-4 col-sm-offset-1">
-          <div class="spacer message">
-          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          <div class="spacer message" style="background-color:rgb(196, 196, 196);">
+          <h2>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h2>
           </div>
         </div>
       </div>
@@ -44,12 +44,12 @@ get_header(); ?>
   	<div class="container">
       <div class="row">
         <div class="col-sm-4 col-sm-offset-1">
-          <div class="spacer message">
-          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          <div class="spacer message" style="background-color: rgb(77, 27, 0);">
+          <h2>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h2>
           </div>
         </div>
         <div class="col-sm-7 spacer">
-          			<h4>Welcome to The Boostrap  Theme</h4>
+          			<h4>MILESTONES</h4>
           			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
           			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div
@@ -60,12 +60,12 @@ get_header(); ?>
   	<div class="container">
       <div class="row">
         <div class="col-sm-7 spacer">
-          			<h4>Welcome to The Boostrap  Theme</h4>
+          			<h4>KEEPING ARTIMISLY ON RETAINER</h4>
           			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
           			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div>
         <div class="col-sm-4 col-sm-offset-1">
-          <div class="spacer message">
+          <div class="spacer message" style="background-color:rgb(196, 196, 196);">
           <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
           </div>
         </div>
