@@ -10,8 +10,23 @@
  Tags:         responsive-layout, custom-background, custom-header, elegant, modern, professional, sophisticated
  Text Domain:  /artimisly-ultra-bootstrap-child/
 */
+/************** GLOBALS ***************/
 a, h1, h2, p { font: 300 13px/22px Roboto; }
 a:hover, a:focus { text-decoration: none; }
+
+/************** HEADER ***************/
+nav.navbar.navbar-default.navbar-fixed-top {
+    background: #191f1d;
+    border-bottom: 1px solid #afb2b1;
+}
+header .navbar-form .btn {
+    background: #830216;
+}
+header .logo-tag {
+    margin: 10px 0;
+}
+
+/************** SECTIONS ***************/
 .masthead {
   background: url(img/DowntownKnoxville.png) no-repeat center center;
   -webkit-background-size: cover;
@@ -25,17 +40,34 @@ a:hover, a:focus { text-decoration: none; }
     background-color: rgba(0, 0, 0, 0.58);
     width: 400px;
 }
-nav.navbar.navbar-default.navbar-fixed-top {
-    background: #191f1d;
-    border-bottom: 1px solid #afb2b1;
-}
-header .navbar-form .btn {
-    background: #830216;
-}
+
 .red {
     background-color: #830216;
 }
+.red .col-sm-7 p, .red .col-sm-7 h4 { color: #c4c4c4; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
     background-color: rgb(196, 196, 196);
+}
+.btn-danger {
+    color: #181f1c !important;
+    background-color: #c4c4c4;
+    border-color: #c4c4c4;
+}
+h4 { border-bottom: 2px solid #c4c4c4;}
+section.welcome.bg-black { background-color: #181f1c;}
+
+section.welcome.artimislypicture {
+  background: url(img/Artimislystaff.png) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*********** FOOTER  ****************/
+footer {
+    background-color: #181f1c;
+    padding: 15px 0;
+    font-size: 0.8em;
 }
