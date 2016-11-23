@@ -16,35 +16,48 @@ get_header(); ?>
 
         <div class="col-md-2 col-md-offset-4">
           <div class="mastheadcolor">
-            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/artemisly-logo-corrected.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#afb2b1;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass<br> Women Of Today.</h1><!--<h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2>--></div>
+            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/artemisly-logo-corrected.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#f2f2f2;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass Women Of Today.</h1><!--<h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2>--></div>
           </div>
         </div>
 
       </div>
     </div>
 </section>
-
-<section class="welcome red">
+<!-- SECTION 2 -->
+<section class="welcome red two">
   	<div class="container">
       <div class="row">
-        <div class="col-sm-7 spacer">
-          			<h4>GROW YOUR BUSINESS</h4>
-          			<p>Get your free marketing consulatation today.
-                  <br>We'll ask you questions about your project
-                  <br>Go over your goals and your wish list
-                  <br>Find out which plan is right for you.
-                  <br>We will walk you through all details and questions regarding your online presence and custom website.  </p>
-          			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
+        <div class="col-sm-3">
+          <div class="spacer" style="color:#ccc;text-align:center;">
+            <i style="font-size: 6em;" class="fa fa-sort-amount-desc" aria-hidden="true"></i>
+            <h2>Web Design</h2>
+
+          </div>
         </div>
-        <div class="col-sm-4 col-sm-offset-1">
-          <div class="spacer message" style="background-color:#181f1c; color:#ccc;text-align:center;">
-            <img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/feather.1.svg" alt="Artimisly Marketing" height="100px" width="100px" style="margin-left: 5%;">
-            <h2>CRAFT YOUR MESSAGE WITH: <br>GREAT DESIGN, CUSTOM SOFTWARE, AND STRATEGIC ONLINE MARKETING.</h2>
+
+        <div class="col-sm-3">
+          <div class="spacer" style="color:#ccc;text-align:center;">
+            <i style="font-size: 6em;" class="fa fa-briefcase" aria-hidden="true"></i>
+            <h2>Web Development</h2>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="spacer" style="color:#ccc;text-align:center;">
+            <i style="font-size: 6em;" class="fa fa-paper-plane" aria-hidden="true"></i>
+            <h2>Email</h2>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="spacer" style="color:#ccc;text-align:center;">
+            <i style="font-size: 6em;" class="fa fa-flask" aria-hidden="true"></i>
+            <h2>Social Networking <br>& SEO</h2>
           </div>
         </div>
       </div>
     	</div>
 </section>
+
+<!-- SECTION 3 -->
 <section class="welcome" style="background-color:#0f1714;">
   	<div class="container">
       <div class="row">
@@ -54,29 +67,57 @@ get_header(); ?>
           </div>
         </div>
         <div class="col-sm-7 spacer">
-          			<h4>MILESTONES</h4>
-          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
+          			<h4>GROW YOUR BUSINESS</h4>
+          			<p>Get your free marketing consulatation today.
+                  <br>We'll ask you questions about your project
+                  <br>Go over your goals and your wish list
+                  <br>Find out which plan is right for you.
+                  <br>We will walk you through all details and questions regarding your online presence and custom website.</p>
           			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div
       </div>
     	</div>
 </section>
+
+<!-- SECTION 4 -->
 <section class="welcome red">
   	<div class="container">
       <div class="row">
         <div class="col-sm-7 spacer">
-          			<h4>KEEPING ARTIMISLY ON RETAINER</h4>
+          			<h4>OUR MILESTONE SYSTEM</h4>
           			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
           			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div>
         <div class="col-sm-4 col-sm-offset-1">
-          <div class="spacer message" style="background-color:#181f1c;">
-          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          <div class="spacer message" style="background-color:#181f1c; color:#ccc;text-align:center;">
+            <img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/feather.1.svg" alt="Artimisly Marketing" height="100px" width="100px" style="margin-left: 5%;">
+            <h2>Each step of the way we will check in with you. Collaboration is the key to success! </h2>
           </div>
         </div>
       </div>
     	</div>
 </section>
+
+<!-- SECTION 5 -->
+<section class="welcome" style="background-color:#0f1714;">
+  	<div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-1">
+          <div class="spacer message" style="background-color:#181f1c;">
+          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+          </div>
+        </div>
+        <div class="col-sm-7 spacer">
+          			<h4>KEEPING ARTIMISLY ON RETAINER</h4>
+          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
+          			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
+        </div>
+
+      </div>
+    	</div>
+</section>
+
+<!-- SECTION 6 -->
 <section class="welcome artimislypicture">
   	<div class="container">
       <div class="row">
@@ -84,6 +125,7 @@ get_header(); ?>
       </div>
     </div>
 </section>
+
 <!-- welcome message -->
 <section class="page-section">
 <div class="detail-content">

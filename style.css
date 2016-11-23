@@ -23,12 +23,16 @@ header .navbar-form .btn {
     background: #830216;
 }
 header .logo-tag {
-    margin: 10px 0;
+    margin: 8px 0;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: rgb(196, 196, 196);
 }
 
 /************** SECTIONS ***************/
 .masthead {
-  background: url(img/DowntownKnoxville.png) no-repeat center center;
+  background: url(img/DowntownKnoxville-blur.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,10 +49,10 @@ header .logo-tag {
     background-color: #830216;
 }
 .red .col-sm-7 p, .red .col-sm-7 h4 { color: #c4c4c4; }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: rgb(196, 196, 196);
+.two .spacer {
+    padding-top: 90px;
 }
+
 .btn-danger {
     color: #181f1c !important;
     background-color: #c4c4c4;
