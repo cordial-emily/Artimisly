@@ -16,7 +16,7 @@ get_header(); ?>
 
         <div class="col-md-2 col-md-offset-4">
           <div class="mastheadcolor">
-            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Artemisly.ornate.Logo.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#f2f2f2;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass Women Of Today.</h1><!--<h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2>--></div>
+            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Artemisly.ornate.Logo.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#f2f2f2;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass Women Of Today.</h1></div>
           </div>
         </div>
 
@@ -24,38 +24,62 @@ get_header(); ?>
     </div>
 </section>
 <!-- SECTION 2 -->
-<section class="welcome red two">
+<section class="welcome red two below-masthead">
   	<div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="spacer" style="color:#ccc;text-align:center;">
-            <i style="font-size: 6em;" class="fa fa-sort-amount-desc" aria-hidden="true"></i>
-            <h2>Web Design</h2>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Your Very Own Custom Website"><!-- <i style="font-size: 6em;" class="fa fa-star-o" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #1</button>
 
           </div>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="spacer" style="color:#ccc;text-align:center;">
-            <i style="font-size: 6em;" class="fa fa-briefcase" aria-hidden="true"></i>
-            <h2>Web Development</h2>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Custom Website, Email, Auto-Publishing to Social Media"><!-- <i style="font-size: 6em;" class="fa fa-star-half-o" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #2</button>
+
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="spacer" style="color:#ccc;text-align:center;">
-            <i style="font-size: 6em;" class="fa fa-paper-plane" aria-hidden="true"></i>
-            <h2>Email</h2>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="spacer" style="color:#ccc;text-align:center;">
-            <i style="font-size: 6em;" class="fa fa-flask" aria-hidden="true"></i>
-            <h2>Social Networking <br>& SEO</h2>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Custom Website, Email, Auto-Publishing to Social Media, Content Writing, Ecommerce, Brand-building, Google Analytics"><!-- <i style="font-size: 6em;" class="fa fa-star" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #3</button>
+
           </div>
         </div>
       </div>
     	</div>
 </section>
+<!-- MODAL -->
+<div class="modal fade" id="plansModal" tabindex="-1" role="dialog" aria-labelledby="plansModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="plansModalLabel">Plan</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <!--<label for="recipient-name" class="control-label">Recipient:</label>-->
+            <!--<input type="text" class="form-control" id="recipient-name">-->
+            <div id="planlist"></div>
+          </div>
+          <!--<div class="form-group">
+            <label for="message-text" class="control-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>-->
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Learn More</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End MODAL -->
 
 <!-- SECTION 3 -->
 <section class="welcome" style="background-color:#0f1714;">

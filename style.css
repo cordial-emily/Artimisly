@@ -13,6 +13,9 @@
 /************** GLOBALS ***************/
 a, h1, h2, p { font: 300 13px/22px Roboto; }
 a:hover, a:focus { text-decoration: none; }
+.btn-default {
+    background-color: #ccc;
+}
 
 /************** HEADER ***************/
 nav.navbar.navbar-default.navbar-fixed-top {
@@ -52,11 +55,35 @@ header .logo-tag {
 .two .spacer {
     padding-top: 90px;
 }
+.two button.btn.btn-primary {
+    background-color: transparent;
+    border: 3px solid #9e7474;
+    padding: 20px 30px;
+}
+.two img.detail {
+    height: 8em;
+    padding-right: 1em;
+}
+.btn-primary:active, .btn-primary:hover, .btn-primary:visited, .btn-primary:focus {
+    border-color: #ccc !important;
+}
 
 .btn-danger {
     color: #181f1c !important;
     background-color: #c4c4c4;
     border-color: #c4c4c4;
+}
+/* MODAL */
+.modal-body {
+    background-color: #830216;
+    color: #ccc;
+}
+.modal-header {
+    background: #181f1c;
+    color: #a5867b;
+}
+.modal-header h4 {
+    border-bottom: 0px;
 }
 h4 { border-bottom: 2px solid #c4c4c4;}
 section.welcome.bg-black { background-color: #181f1c;}
