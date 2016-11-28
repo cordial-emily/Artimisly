@@ -16,7 +16,7 @@ get_header(); ?>
 
         <div class="col-md-2 col-md-offset-4">
           <div class="mastheadcolor">
-            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/artemisly-logo-corrected.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#f2f2f2;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass Women Of Today.</h1><!--<h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2>--></div>
+            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Artemisly.ornate.Logo.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#f2f2f2;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass Women Of Today.</h1><!--<h2 style="text-align:center;color:#fff;font-size:1.9em;">LIVE LIFE ARTIMISLY</h2>--></div>
           </div>
         </div>
 

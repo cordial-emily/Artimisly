@@ -35,7 +35,7 @@
 				      	</button>
 				      	<div class="logo-tag">
 
-                    <a href="http://localartimisly:8888/" class="custom-logo-link" rel="home" itemprop="url"><img width="160" height="34" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/artimisly.word.corrected.svg" class="custom-logo" alt="Artimisly Web Design" itemprop="logo" scale="0"></a>
+                    <a href="http://localartimisly:8888/" class="custom-logo-link" rel="home" itemprop="url"><img width="160" height="34" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/ArtemislyWordLogo.dk.svg" class="custom-logo" alt="Artimisly Web Design" itemprop="logo" scale="0"></a>
 				      			<!--/*<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php if ( has_custom_logo()): the_custom_logo(); else: ?>
 				      			<h1 class="site-title" style="color:<?php echo "#". $header_text_color;?>"><?php echo bloginfo( 'name' ); ?></h1>
 				      			<h2 class="site-description" style="color:<?php echo "#". $header_text_color;?>"><?php bloginfo('description'); ?></h2><?php endif; ?></a> */ -->
