@@ -12,9 +12,15 @@
 */
 /************** GLOBALS ***************/
 a, h1, h2, p { font: 300 13px/22px Roboto; }
+h4 { color: #928f8f; }
+p { color: #7b7979; }
 a:hover, a:focus { text-decoration: none; }
-.btn-default {
-    background-color: #ccc;
+.btn-default { background-color: #ccc; }
+.btn:focus { outline: none; }
+.btn-danger {
+    color: #ccc !important;
+    background-color: transparent;
+    border-color: #c4c4c4;
 }
 
 /************** HEADER ***************/
@@ -40,12 +46,25 @@ header .logo-tag {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  height: 58em;
 }
 .mastheadcolor {
-    height: 600px !important;
+    height: 40em !important;
     background-color: rgba(0, 0, 0, 0.58);
-    width: 400px;
+    width: 100%;
+    margin: 15% 10%;
+    padding: 1em;
+}
+.mastheadcolor .inner { padding-top:1em;}
+.mastheadcolor .inner .col-sm-6 img { float: right; }
+.mastheadcolor .inner .col-sm-6.text { margin-top: 8em; }
+.mastheadcolor h1, .mastheadcolor h2 { text-align: left; font-size: 1.6em; color: #afadad;}
+
+.mastheadcolor .inner .col-sm-6.text a.btn.btn-danger {
+    background: transparent;
+    margin-top: 3em;
+    color: #fff !important;
+    padding: 1em;
 }
 
 .red {
@@ -65,14 +84,14 @@ header .logo-tag {
     padding-right: 1em;
 }
 .btn-primary:active, .btn-primary:hover, .btn-primary:visited, .btn-primary:focus {
-    border-color: #ccc !important;
+    border: 2px solid #ccc !important;
 }
 
-.btn-danger {
+/*.btn-danger {
     color: #181f1c !important;
     background-color: #c4c4c4;
     border-color: #c4c4c4;
-}
+}*/
 /* MODAL */
 .modal-body {
     background-color: #830216;
@@ -95,10 +114,51 @@ section.welcome.artimislypicture {
   -o-background-size: cover;
   background-size: cover;
 }
+/* section 3 */
+img.arrow-detail {
+  padding-top: 6em;
+}
+/* section 4 */
+.four img.checklist {
+    padding-top: 4em;
+}
+.row.milestones {
+    padding-top: 2em;
+}
+.four .milestones .col-sm-2 {
+    border-left: 2px solid #000;
+}
+.four .milestones span {
+    margin-left: -30px;
+    top: -20px;
+    position: absolute;
+    color: #ad3131;
+}
+img.step {
+    position: absolute;
+    bottom: 0px;
+    max-width: 80%;
+}
+.four .milestones .col-sm-2 {
+    height: 5em;
+}
+.four a.btn.btn-danger {
+    margin-top: -100px;
+}
 
 /*********** FOOTER  ****************/
 footer {
     background-color: #181f1c;
     padding: 15px 0;
     font-size: 0.8em;
+}
+
+/**************************** Media Queries *******************************/
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 991px) {
+  .mastheadcolor {
+      margin: 2% 0%;
+  }
 }

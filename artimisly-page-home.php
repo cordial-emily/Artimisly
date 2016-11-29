@@ -14,9 +14,18 @@ get_header(); ?>
   	<div class="container">
       <div class="row">
 
-        <div class="col-md-2 col-md-offset-4">
+        <div class="col-md-10 col-sm-12">
           <div class="mastheadcolor">
-            <div style="text-align:center;padding-top:120px;"><img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Artemisly.ornate.Logo.svg" alt="Artimisly Marketing" height="280px" width="280px"><h1 style="text-align:center;color:#f2f2f2;font-size:1.6em;line-height:1.5em;">Marketing By And For The Kick-Ass Women Of Today.</h1></div>
+            <div class="inner row">
+              <div class="col-sm-6">
+                <img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Artemisly.ornate.Logo.svg" alt="Artimisly Marketing" height="600px" width="600px">
+              </div>
+              <div class="col-sm-6 text">
+                <h2>CONVERT YOUR VISITORS INTO REPEAT CUSTOMERS</h2>
+                <h1>With Marketing By And For The Kick-Ass Women Of Today. <br><br><strong>LIVE LIFE ARTEMISLY.</strong></h1>
+                <a href="/GetStarted.html" title="Read More" class="btn btn-danger">Get Started</a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -38,13 +47,13 @@ get_header(); ?>
         <div class="col-sm-4">
           <div class="spacer" style="color:#ccc;text-align:center;">
 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Custom Website, Email, Auto-Publishing to Social Media"><!-- <i style="font-size: 6em;" class="fa fa-star-half-o" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #2</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Custom Website, Email, Auto-Publishing to Social Media, Newsletter Sign-up Form"><!-- <i style="font-size: 6em;" class="fa fa-star-half-o" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #2</button>
 
           </div>
         </div>
         <div class="col-sm-4">
           <div class="spacer" style="color:#ccc;text-align:center;">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Custom Website, Email, Auto-Publishing to Social Media, Content Writing, Ecommerce, Brand-building, Google Analytics"><!-- <i style="font-size: 6em;" class="fa fa-star" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #3</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#plansModal" data-whatever="Custom Website, Email, Auto-Publishing to Social Media, Newsletter Sign-up Form, Content Writing, Ecommerce, Brand-building, Google Analytics"><!-- <i style="font-size: 6em;" class="fa fa-star" aria-hidden="true"></i> --> <img class="detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/Underline-detail.svg">Plan #3</button>
 
           </div>
         </div>
@@ -82,18 +91,18 @@ get_header(); ?>
 <!-- End MODAL -->
 
 <!-- SECTION 3 -->
-<section class="welcome" style="background-color:#0f1714;">
+<section class="welcome three" style="background-color:#0f1714;">
   	<div class="container">
       <div class="row">
         <div class="col-sm-4 col-sm-offset-1">
           <div class="spacer message" style="background-color:#181f1c;">
-          <h2>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h2>
+            <img class="arrow-detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/arrow.detail.1.png">
+
           </div>
         </div>
         <div class="col-sm-7 spacer">
-          			<h4>GROW YOUR BUSINESS</h4>
-          			<p>Get your free marketing consulatation today.
-                  <br>We'll ask you questions about your project
+          			<h4>Get your free marketing consulatation</h4>
+          			<p>We'll ask you questions about your project
                   <br>Go over your goals and your wish list
                   <br>Find out which plan is right for you.
                   <br>We will walk you through all details and questions regarding your online presence and custom website.</p>
@@ -104,18 +113,27 @@ get_header(); ?>
 </section>
 
 <!-- SECTION 4 -->
-<section class="welcome red">
+<section class="welcome red four">
   	<div class="container">
       <div class="row">
         <div class="col-sm-7 spacer">
-          			<h4>OUR MILESTONE SYSTEM</h4>
-          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
-          			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
+          	<h4>OUR MILESTONE SYSTEM</h4>
+                <div class="row milestones">
+                  <div class="col-sm-2"><span>Kickoff</span><img class="step" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/shoe-prints1.png"></div>
+                  <div class="col-sm-2"><span>Planning</span><img class="step" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/shoe-prints1.png"></div>
+                  <div class="col-sm-2"><span>Content</span><img class="step" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/shoe-prints1.png"></div>
+                  <div class="col-sm-2"><span>Design</span><img class="step" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/shoe-prints1.png"></div>
+                  <div class="col-sm-2"><span>Development</span><img class="step" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/shoe-prints1.png"></div>
+                  <div class="col-sm-2"><span>Validation</span><img class="step" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/shoe-prints1.png"></div>
+
+                </div>
+          	<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div>
+
         <div class="col-sm-4 col-sm-offset-1">
           <div class="spacer message" style="background-color:#181f1c; color:#ccc;text-align:center;">
-            <img src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/feather.1.svg" alt="Artimisly Marketing" height="100px" width="100px" style="margin-left: 5%;">
-            <h2>Each step of the way we will check in with you. Collaboration is the key to success! </h2>
+            <img class="arrow-detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/arrow.detail.2.png" alt="Artimisly Marketing">
+
           </div>
         </div>
       </div>
@@ -128,12 +146,17 @@ get_header(); ?>
       <div class="row">
         <div class="col-sm-4 col-sm-offset-1">
           <div class="spacer message" style="background-color:#181f1c;">
-          <h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>
+            <img class="arrow-detail" src="/wp-content/themes/artimisly-ultra-bootstrap-child/img/arrow.detail.1.png">
+          <!--<h1>FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE.</h1>-->
           </div>
         </div>
         <div class="col-sm-7 spacer">
-          			<h4>KEEPING ARTIMISLY ON RETAINER</h4>
-          			<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet</p>
+          			<h4>KEEP US ON RETAINER FOR ONGOING HELP WITH:</h4>
+          			<p>Handling routine maintenance work<br>
+                   Emergency marketing<br>
+                   Fast turnaround for routine tasks<br>
+                   Consulting on strategy or planning for the company<br>
+                   Handling routine, repetitive work</p>
           			<a href="http://thebootstrapthemes.com" title="Read More" class="btn btn-danger">Read More</a>
         </div>
 
@@ -151,14 +174,7 @@ get_header(); ?>
 </section>
 
 <!-- welcome message -->
-<section class="page-section">
-<div class="detail-content">
- <?php while ( have_posts() ) : the_post(); ?>
- <?php get_template_part( 'template-parts/content', 'page' ); ?>
- <?php endwhile; // End of the loop. ?>
- <?php comments_template(); ?>
-</div>
-</section>
+
 <!-- welcome message -->
 
 
